@@ -20,6 +20,9 @@
                                 <rect key="frame" x="150" y="408.66666666666669" width="93" height="35"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Continue"/>
+                                <connections>
+                                    <segue destination="wnl-My-Fte" kind="show" id="Tpr-iM-wR2"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -33,6 +36,34 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="97" y="4"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Ksh-rZ-vYe">
+            <objects>
+                <viewController id="wnl-My-Fte" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="kxb-ev-JlF">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="New View" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QxM-Wm-TX6">
+                                <rect key="frame" x="158.66666666666666" y="410.66666666666669" width="76" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="zCg-QH-UpD"/>
+                        <color key="backgroundColor" red="1" green="0.5409764051" blue="0.84731429820000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="QxM-Wm-TX6" firstAttribute="centerX" secondItem="kxb-ev-JlF" secondAttribute="centerX" id="cqJ-Ds-bOl"/>
+                            <constraint firstItem="QxM-Wm-TX6" firstAttribute="centerY" secondItem="kxb-ev-JlF" secondAttribute="centerY" id="xn6-9d-NHk"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="9Om-cY-Byr"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rTr-pa-Kp3" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="944" y="4"/>
         </scene>
     </scenes>
     <resources>
